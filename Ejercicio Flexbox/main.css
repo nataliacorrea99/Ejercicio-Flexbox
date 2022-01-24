@@ -1,0 +1,76 @@
+body{
+margin: 0;
+background-color: rgba(240, 128, 128, 0.712);
+
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.image{
+    width: 100%;
+    margin: 0;
+    height: 800px;
+    flex-grow: 1rem;
+    
+    background-image: url(img/image.1.jpg);
+}
+.macarons{
+    padding: 3rem;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(80, 64, 170);
+}
+
+.contenedor{
+
+margin: 2rem auto;
+width: 80%;
+padding: 1rem;
+position: relative;
+
+display: flex;
+flex-flow: row;
+gap: 2rem;
+}
+
+
+.titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    
+
+    
+}
+
+[class *="tarjeta"]{
+    padding: 1rem;
+    position: relative;
+    flex-basis: 10rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    
+}
+.texto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.tarjeta-1{
+    background-color: lightseagreen;
+
+}
+.tarjeta-2{
+    background-color: mediumpurple;
+    
+}
+.tarjeta-3{
+    background-color: rgb(35, 138, 86);
+}
+.tarjeta-4{
+    background-color: rgb(247, 230, 80);
+}
